@@ -1,3 +1,5 @@
+package uni.aql.model;
+
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
@@ -21,7 +23,7 @@ public class RegressionTest0 {
     @Test
     public void test01() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test01");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test01");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         java.lang.Class<?> wildcardClass1 = board0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
@@ -30,7 +32,7 @@ public class RegressionTest0 {
     @Test
     public void test02() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test02");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test02");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         board0.mark((int) (short) 0, (int) '#');
@@ -41,7 +43,7 @@ public class RegressionTest0 {
     @Test
     public void test03() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test03");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test03");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -53,7 +55,7 @@ public class RegressionTest0 {
     @Test
     public void test04() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test04");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test04");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (short) 10, 10);
     }
@@ -61,7 +63,7 @@ public class RegressionTest0 {
     @Test
     public void test05() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test05");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test05");
         java.lang.Object obj0 = new java.lang.Object();
         java.lang.Class<?> wildcardClass1 = obj0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
@@ -70,7 +72,7 @@ public class RegressionTest0 {
     @Test
     public void test06() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test06");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test06");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -83,7 +85,7 @@ public class RegressionTest0 {
     @Test
     public void test07() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test07");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test07");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -102,7 +104,7 @@ public class RegressionTest0 {
     @Test
     public void test08() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test08");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test08");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -118,7 +120,7 @@ public class RegressionTest0 {
     @Test
     public void test09() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test09");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test09");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -131,7 +133,7 @@ public class RegressionTest0 {
     @Test
     public void test10() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test10");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test10");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -145,7 +147,7 @@ public class RegressionTest0 {
     @Test
     public void test11() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test11");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test11");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -163,7 +165,7 @@ public class RegressionTest0 {
     @Test
     public void test12() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test12");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test12");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -175,7 +177,7 @@ public class RegressionTest0 {
     @Test
     public void test13() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test13");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test13");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -193,7 +195,7 @@ public class RegressionTest0 {
     @Test
     public void test14() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test14");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test14");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInProgressMode();
@@ -206,7 +208,7 @@ public class RegressionTest0 {
     @Test
     public void test15() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test15");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test15");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) (byte) -1, 10);
@@ -215,7 +217,7 @@ public class RegressionTest0 {
     @Test
     public void test16() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test16");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test16");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -230,7 +232,7 @@ public class RegressionTest0 {
     @Test
     public void test17() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test17");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test17");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -248,7 +250,7 @@ public class RegressionTest0 {
     @Test
     public void test18() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test18");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test18");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInProgressMode();
@@ -261,7 +263,7 @@ public class RegressionTest0 {
     @Test
     public void test19() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test19");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test19");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -273,7 +275,7 @@ public class RegressionTest0 {
     @Test
     public void test20() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test20");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test20");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -290,7 +292,7 @@ public class RegressionTest0 {
     @Test
     public void test21() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test21");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test21");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -304,7 +306,7 @@ public class RegressionTest0 {
     @Test
     public void test22() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test22");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test22");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         board0.mark((int) (short) 0, (int) '#');
@@ -315,7 +317,7 @@ public class RegressionTest0 {
     @Test
     public void test23() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test23");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test23");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -331,7 +333,7 @@ public class RegressionTest0 {
     @Test
     public void test24() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test24");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test24");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -345,7 +347,7 @@ public class RegressionTest0 {
     @Test
     public void test25() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test25");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test25");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -358,7 +360,7 @@ public class RegressionTest0 {
     @Test
     public void test26() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test26");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test26");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInFinishedMode();
@@ -369,7 +371,7 @@ public class RegressionTest0 {
     @Test
     public void test27() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test27");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test27");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -386,7 +388,7 @@ public class RegressionTest0 {
     @Test
     public void test28() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test28");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test28");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -401,7 +403,7 @@ public class RegressionTest0 {
     @Test
     public void test29() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test29");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test29");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -415,7 +417,7 @@ public class RegressionTest0 {
     @Test
     public void test30() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test30");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test30");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -433,7 +435,7 @@ public class RegressionTest0 {
     @Test
     public void test31() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test31");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test31");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -450,7 +452,7 @@ public class RegressionTest0 {
     @Test
     public void test32() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test32");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test32");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -461,7 +463,7 @@ public class RegressionTest0 {
     @Test
     public void test33() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test33");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test33");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.restart();
@@ -470,7 +472,7 @@ public class RegressionTest0 {
     @Test
     public void test34() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test34");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test34");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -485,7 +487,7 @@ public class RegressionTest0 {
     @Test
     public void test35() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test35");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test35");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInProgressMode();
@@ -497,7 +499,7 @@ public class RegressionTest0 {
     @Test
     public void test36() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test36");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test36");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInProgressMode();
@@ -512,7 +514,7 @@ public class RegressionTest0 {
     @Test
     public void test37() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test37");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test37");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -528,7 +530,7 @@ public class RegressionTest0 {
     @Test
     public void test38() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test38");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test38");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -543,7 +545,7 @@ public class RegressionTest0 {
     @Test
     public void test39() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test39");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test39");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -555,7 +557,7 @@ public class RegressionTest0 {
     @Test
     public void test40() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test40");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test40");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -572,7 +574,7 @@ public class RegressionTest0 {
     @Test
     public void test41() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test41");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test41");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -590,7 +592,7 @@ public class RegressionTest0 {
     @Test
     public void test42() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test42");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test42");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -607,7 +609,7 @@ public class RegressionTest0 {
     @Test
     public void test43() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test43");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test43");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -620,7 +622,7 @@ public class RegressionTest0 {
     @Test
     public void test44() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test44");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test44");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -638,7 +640,7 @@ public class RegressionTest0 {
     @Test
     public void test45() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test45");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test45");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -651,7 +653,7 @@ public class RegressionTest0 {
     @Test
     public void test46() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test46");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test46");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -668,7 +670,7 @@ public class RegressionTest0 {
     @Test
     public void test47() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test47");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test47");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -683,7 +685,7 @@ public class RegressionTest0 {
     @Test
     public void test48() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test48");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test48");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         java.lang.Boolean boolean4 = board0.isInProgressMode();
@@ -696,7 +698,7 @@ public class RegressionTest0 {
     @Test
     public void test49() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test49");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test49");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -712,7 +714,7 @@ public class RegressionTest0 {
     @Test
     public void test50() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test50");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test50");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -726,7 +728,7 @@ public class RegressionTest0 {
     @Test
     public void test51() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test51");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test51");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -744,7 +746,7 @@ public class RegressionTest0 {
     @Test
     public void test52() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test52");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test52");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
@@ -760,7 +762,7 @@ public class RegressionTest0 {
     @Test
     public void test53() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test53");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test53");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.mark((int) (byte) -1, (int) '#');
         board0.mark((int) ' ', (int) '#');
@@ -774,7 +776,7 @@ public class RegressionTest0 {
     @Test
     public void test54() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test54");
+            System.out.format("%n%s%n", "uni.aql.model.RegressionTest0.test54");
         uni.aql.model.Board board0 = new uni.aql.model.Board();
         board0.restart();
         java.lang.Boolean boolean2 = board0.isInProgressMode();
